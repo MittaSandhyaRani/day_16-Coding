@@ -1,0 +1,5 @@
+import math
+AB = int(input())
+BC = int(input())
+ang = int(math.degrees(math.atan2(AB,BC))+0.5)
+print(ang,chr(176),sep='')
